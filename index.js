@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 // Create a simple "route" for the main page ('/')
 app.get('/', (req, res) => {
-  res.send('Torn Buddy API is running!');
+  res.send('Torn Buddy API V2 is running!');
 });
 
 // Start the server and listen for visitors
